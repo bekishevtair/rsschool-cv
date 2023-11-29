@@ -21,3 +21,18 @@ I am a junior frontend developer with a strong foundation in HTML, CSS, and basi
 ## Code Examples
 Check out some of my code examples on GitHub:
 - [Astro.build template](https://github.com/bekishevtair/astro.template)
+
+## Work Experience
+### Web Development | Pineal s.r.o, Prague, Czech Republic | Since April 2022
+- Utilized HTML, CSS, and basic JavaScript to develop website functionality.
+- Implemented responsive and visually appealing user interfaces.
+- Collaborated with the development team on various projects.
+
+### Work Projects
+1. **Oipax**
+   - [Source Code](https://github.com/bekishevtair/oipax)
+   - [Website](https://oipax.com/)
+
+2. **Bluenbull**
+   - [Source Code](https://github.com/bekishevtair/bluenbull)
+   - [Website](https://bluenbull.com/)
