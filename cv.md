@@ -48,7 +48,7 @@ Check out some of my code examples on GitHub:
     - Platform: Udemy
 
   - **Free Courses**
-    - Vladilen Minin, Bogdan Stashchuk
+    - Vladilen Minin, Bogdan Stashchuk and others.
     - Platform: YouTube
 
 ## English Language
