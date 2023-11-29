@@ -36,3 +36,21 @@ Check out some of my code examples on GitHub:
 2. **Bluenbull**
    - [Source Code](https://github.com/bekishevtair/bluenbull)
    - [Website](https://bluenbull.com/)
+
+## Education
+- **Bachelor's Degree in Fakulty of Architecture**
+  - Czech Technical University, Prague, Czech Republic
+  - Graduation: June 2020
+
+- **Online Courses and Training**
+  - **JavaScript - Полный Курс по JavaScript (Включает 80 Задач)**
+    - Instructor: Bogdan Stashchuk - Software Engineer, MBA, PhD
+    - Platform: Udemy
+
+  - **Free Courses**
+    - Vladilen Minin, Bogdan Stashchuk
+    - Platform: YouTube
+
+## English Language
+- **Proficiency Level:** B1
+- **Language Practice:** Regularly engage in reading technical documentation.   
