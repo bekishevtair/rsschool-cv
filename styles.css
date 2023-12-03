@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-100.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-200.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-300.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-400.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-500.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-600.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-700.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-800.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../../../../public/fonts/Poppins/Poppins-900.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+/* VARS */
+:root {
+  --primary: #fedcbe;
+  --seconadary: #534346;
+}
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--primary);
+}
+
+.resume {
+  max-width: 1320px;
+  margin: 50px auto;
+  display: grid;
+  border-radius: 40px;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+.content {
+  padding: 20px;
+}
+
+header {
+  text-align: start;
+  font-size: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 5px;
+  color: #666;
+}
+
+.contact {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact h2,
+.contact h1 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.contact ul {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: var(--primary) !important;
+  text-decoration: none;
+}
+.sidebar {
+  background: var(--seconadary);
+}
+
+.sidebar-photo {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.introduction,
+.skills,
+code-examples,
+work-experience,
+work-projects,
+education,
+english-language {
+  margin-top: 20px;
+}
+
+.work-experience,
+work-projects,
+education {
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.work-projects,
+education {
+  margin-top: 0;
+}
+
+.work-projects ol,
+.education p {
+  margin: 0;
+}
+
+.work-projects h3,
+.education strong {
+  margin-top: 0;
+}
+
+.work-projects ul,
+.education ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.work-projects li,
+.education li {
+  margin-bottom: 5px;
+}
+
+.english-language {
+  margin-bottom: 20px;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
