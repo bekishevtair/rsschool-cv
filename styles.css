@@ -88,15 +88,6 @@ header {
   font-size: 30px;
 }
 
-header h1 {
-  margin: 0;
-}
-
-header p {
-  margin-top: 5px;
-  color: #666;
-}
-
 .contact {
   padding: 20px;
   border-radius: 10px;
@@ -109,13 +100,8 @@ header p {
 }
 
 .contact ul {
-  list-style: none;
   color: #fff;
   padding: 0;
-}
-
-.contact li {
-  margin-bottom: 10px;
 }
 
 .contact a {
@@ -126,64 +112,36 @@ header p {
   background: var(--seconadary);
 }
 
-.sidebar-photo {
-  height: 400px;
-  width: 100%;
+.sidebar__photo {
+  max-width: 400px;
   display: flex;
   flex-direction: column;
 }
-
-.sidebar img {
+.sidebar__info li {
+  margin-bottom: 24px;
+  font-size: 20px;
+  border-bottom: 2px solid var(--primary);
+}
+.sidebar__info a {
+  font-weight: 600;
+  display: block;
+}
+.sidebar__info img {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-.introduction,
-.skills,
-code-examples,
-work-experience,
-work-projects,
-education,
-english-language {
-  margin-top: 20px;
+li::marker {
+  color: var(--seconadary);
+  font-weight: 700;
 }
 
-.work-experience,
-work-projects,
-education {
-  border-top: 2px solid #ddd;
-  padding-top: 20px;
+.content h2,
+.content h2,
+.content h2,
+.content li,
+.content p {
+  color: var(--seconadary);
 }
-
-.work-projects,
-education {
-  margin-top: 0;
-}
-
-.work-projects ol,
-.education p {
-  margin: 0;
-}
-
-.work-projects h3,
-.education strong {
-  margin-top: 0;
-}
-
-.work-projects ul,
-.education ul {
-  padding-left: 20px;
-  margin: 10px 0;
-}
-
-.work-projects li,
-.education li {
-  margin-bottom: 5px;
-}
-
-.english-language {
-  margin-bottom: 20px;
-}
-
-.resume a:hover {
-  text-decoration: underline;
+.content li a {
+  font-weight: 600;
+  color: var(--seconadary);
 }
