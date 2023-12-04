@@ -1,2 +1,2 @@
 # Link
-- [CV link](https://bekishevtair.github.io/rsschool-cv/cv)
+- [CV link - HTML](https://bekishevtair.github.io/rsschool-cv/)
